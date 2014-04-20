@@ -1,4 +1,10 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+const int BOARD_SIZE = 8;
 enum ChessPieceColor { BLACK, WHITE, NUM_PLAYER };
+
+/*
 enum ChessPieceType {
 	NONE,
 	PAWN,
@@ -8,5 +14,25 @@ enum ChessPieceType {
 	QUEEN,
 	KING,
 	NUM_PIECE_TYPES
-};
+};*/
 
+enum ChessPieceNames{
+	KING,
+	QUEEN,
+	KING_ROOK,
+	QUEEN_ROOK,	
+	KING_BISHOP,
+	QUEEN_BISHOP,
+	KING_KNIGHT,
+	QUEEN_KNIGHT,
+	KING_PAWN,
+	QUEEN_PAWN,
+	KING_ROOK_PAWN,
+	QUEEN_ROOK_PAWN,	
+	KING_BISHOP_PAWN,
+	QUEEN_BISHOP_PAWN,
+	KING_KNIGHT_PAWN,
+	QUEEN_KNIGHT_PAWN,
+	NUM_CHESS_PIECE_NAMES	
+};
+#endif

@@ -15,7 +15,7 @@ CCC	          = /usr/bin/g++
 CFLAGS        = -Wall -c -g 
 
 # Define C++ compiler options
-CCCFLAGS      = -Wall -c -g 
+CCCFLAGS      = -Wall -c -g -std=c++11
 
 # Define C/C++ pre-processor options
 CPPFLAGS      = -I./ -I/usr/X11/include -I/opt/local/include 
@@ -39,7 +39,7 @@ OBJ           = $(CPPSRCS:.cpp=.o) $(CSRCS:.c=.o)
 CSRCS         =
 
 # Define all C++ source files here
-CPPSRCS       = main.cpp
+CPPSRCS       = main.cpp board.cpp
 
 # Define name of target executable
 PROGRAM	      = ChessEngine

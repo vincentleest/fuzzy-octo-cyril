@@ -1,11 +1,19 @@
 #include "board.h"
+#include <iostream>
 
-namespace Board{
-	void printBoard(){
-		int i,j;
-		for( i = 0; i < BOARD_SIZE; i++){
-			
+Board::Board(){
+	std::cout<<"board constructed\n";
 
-		}
+}
+
+void Board::newGame(){
+		
+}
+
+void Board::printBoard(){
+	int i,j;
+	for( i = 0; i < BOARD_SIZE; i++){
+
+
 	}
 }
