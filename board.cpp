@@ -3,7 +3,6 @@
 
 Board::Board(){
 	std::cout<<"board constructed\n";
-
 }
 
 void Board::newGame(){
@@ -11,9 +10,6 @@ void Board::newGame(){
 }
 
 void Board::printBoard(){
-	int i,j;
-	for( i = 0; i < BOARD_SIZE; i++){
-
-
-	}
+	board[0][0].set();
+	std::cout<<board[0][0].to_string('.', '1')<<std::endl;
 }

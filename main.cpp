@@ -8,7 +8,7 @@ int main(int argc, char** argv){
 	
 	cout<<"lol"<<endl;
 	Board game;
-	
+	game.printBoard();	
 
 	return 0;
 
